@@ -12,7 +12,11 @@ const MyClock = () => {
 
     setInterval(updateTime, 1000);
 
-    return <h1>{time}</h1>;
+    return <>
+        <h3>This example uses the useState hook to create a clock that updates every second.</h3>
+        useState and setInterval
+        <h1>{time}</h1>
+    </>;
 
 }
 
